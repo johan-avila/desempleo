@@ -1,0 +1,61 @@
+/* *{background-color: aqua;} */
+* {
+  /* ------Paleta de colores------ */
+  --color-fuerte: #e78a13;
+  --color-uno: #2d93d5;
+  --color-dos: #004f98;
+  --color-tres: #ced9fe;
+  --color-cuatro: #8e8e8e;
+  /* ---------------------------------- */
+}
+nav {
+  background-color: var(--color-dos) !important ;
+  color: white0;
+}
+nav a {
+  color: white;
+}
+nav a:hover {
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+}
+
+.CustomNavbarForm {
+  width: 10em !important;
+  height: auto;
+}
+.btn-cursosyAyudas {
+  padding: 0.2em 0.5em;
+  border-radius: 10px;
+  background-color: var(--color-fuerte);
+}
+
+/* 
+Borrar este codigo cuando este el api para el formulario SOLO DE AQUI, SE QUEDA EN @media
+  .CustomMovileCSS {
+    display: none;
+  }
+
+*/
+.CustomMovileCSS {
+  display: none !important;
+}
+.inputColorCss{
+    background-color: var(--color-tres);   
+   }
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 850px) {
+  .CustomMovileCSS {
+    display: none;
+  }
+  .navMovileCss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navabarNameAndCursos {
+    /* width: 50%; */
+    margin: 0;
+  }
+}

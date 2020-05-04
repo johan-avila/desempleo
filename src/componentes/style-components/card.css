@@ -1,0 +1,14 @@
+.customCardBody {
+  background-color: var(--color-uno);
+  color: white;
+  padding: 0.3em;
+}
+.customGlobalCard {
+  margin: 0.5em;
+}
+
+.customCardBody:hover{
+background-color:var(--color-seis);
+color:var(--color-uno);
+
+}
