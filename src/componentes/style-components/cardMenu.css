@@ -1,0 +1,24 @@
+/* style="max-width: 18rem;" */
+.customCardBodyMenu{
+    /* max-width: 18rem; */
+    /* width: ; */
+    
+}
+
+.Tarjeta-menu{
+background-color: var(--color-fuerte);
+    
+}
+.Tarjeta-mas-visto{
+    background-color: var(--color-fuerte);
+}
+.hover-anclas{
+    color: var(--color-seis);
+
+
+}
+.hover-anclas:hover{
+    color: var(--color-seis);
+
+    
+}
