@@ -5,9 +5,12 @@
   --color-dos: #004f98;
   --color-tres: #ced9fe;
   --color-cuatro: #8e8e8e;
-  --color-cinco: ;
-  --color-seis: ;
+  --color-cinco: #2982bd ;
+  --color-font: white;
   --color-siete: ;
   --color-cuatro: ;
   /* ---------------------------------- */
+margin: 0;
+padding: 0;
 }
+

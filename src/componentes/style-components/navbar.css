@@ -11,6 +11,10 @@
 nav {
   background-color: var(--color-dos) !important ;
   color: white0;
+/* position: fixed; */
+float: butto;
+
+
 }
 nav a {
   color: white;
