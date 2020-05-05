@@ -1,0 +1,11 @@
+/* *{background-color: tomato;} */
+.GlobalGeneral {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.columnaDer {
+  padding: 3em;
+  /* border: tomato solid 2px; */
+  width: 30%;
+  }

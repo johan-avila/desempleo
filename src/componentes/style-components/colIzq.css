@@ -1,0 +1,9 @@
+.columnaIzq {
+  /* border: tomato 2px solid; */
+  width: 70%;
+  padding: 2em 6em 0 10em;
+  text-align: justify;
+}
+.imgPrincipalColumnaIzq {
+  width: 100%;
+}

@@ -9,7 +9,6 @@ class Footer extends React.Component {
                 <div className="divLegales">
                     <a href="/">Política de Cookies</a>
                     <a href="/">Política de Privacidad</a>
-
                     <a href="/">Aviso legal</a>
                 </div>
 
