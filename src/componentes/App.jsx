@@ -13,8 +13,8 @@ function App() {
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/general" component={General} />
-
-                <Route exact path="/meta" component={HolaBeba}/>
+                <div>HOLA MUNDO</div>
+                <Route exact path="/meta" component={HolaBeba} />
             </Switch>
         </BrowserRouter>
     )
