@@ -4,12 +4,17 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "../pages/home"
 import General from "../pages/generalLayout"
 // General= <General h1="hola"/>
+//////////////PRUEBA/////////////
+import HolaBeba from "./MataTags"
+///////////////////////////
 function App() {
     return (
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/general" component={ General } />
+                <Route exact path="/general" component={General} />
+
+                <Route exact path="/meta" component={HolaBeba}/>
             </Switch>
         </BrowserRouter>
     )

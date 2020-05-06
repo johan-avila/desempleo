@@ -10,7 +10,7 @@ class Form extends React.Component {
                         <input type="email" className="form-control customInputForm" placeholder="Email" />
                     </div>
                     <div className="form-group">
-                        <input type="password" className="form-control customInputForm" placeholder="Nombre" />
+                        <input type="text" className="form-control customInputForm" placeholder="Nombre" />
                     </div>
                     <div className="form-check">
                         <input type="checkbox" className="form-check-input" />
