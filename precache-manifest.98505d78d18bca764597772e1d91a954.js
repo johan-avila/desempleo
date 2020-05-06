@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "832b44a360d39133b67e54caf49debe9",
+    "revision": "5785ba5b318f41cdd3bb217b16f1c8c0",
     "url": "/desempleo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desempleo/static/css/2.74189dbb.chunk.css"
   },
   {
-    "revision": "4535c2fd00b2146ce2bc",
+    "revision": "3df1beed777174efd32d",
     "url": "/desempleo/static/css/main.3d935a90.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desempleo/static/js/2.e78edfb7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4535c2fd00b2146ce2bc",
-    "url": "/desempleo/static/js/main.8f271102.chunk.js"
+    "revision": "3df1beed777174efd32d",
+    "url": "/desempleo/static/js/main.79195e20.chunk.js"
   },
   {
     "revision": "d930420b501c8532b9ea",
