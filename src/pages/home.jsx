@@ -24,7 +24,25 @@ class Home extends React.Component {
                             altImg="Img Random"
                             img={`https://images.unsplash.com/photo-1588478498345-13a88868ce10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80`}
                             Title="hola mundo"
+                        />< Card
+                        linkTo="/general"
+                        altImg="Img Random"
+                        img={`https://images.unsplash.com/photo-1588478498345-13a88868ce10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80`}
+                        Title="hola mundo"
+                    />
+                    < Card
+                            linkTo="/general"
+                            altImg="Img Random"
+                            img={`https://images.unsplash.com/photo-1588478498345-13a88868ce10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80`}
+                            Title="hola mundo"
                         />
+                        < Card
+                            linkTo="/general"
+                            altImg="Img Random"
+                            img={`https://images.unsplash.com/photo-1588478498345-13a88868ce10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80`}
+                            Title="hola mundo"
+                        />
+                        
                     </section>
                     <section className="mt-5  customDivRow">
                         <CardMenu
