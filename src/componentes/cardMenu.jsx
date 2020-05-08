@@ -4,7 +4,10 @@ import "./style-components/cardMenu.css"
 class CardMenu extends React.Component {
 /* props
 this.props.cardMenuTitle // Autoexplicativo
-
+this.props.LinkUno//autoexplicativo
+this.props.LinkDos
+this.props.LinkTres
+this.props.LinkCuatro
 */
 
 
@@ -16,10 +19,10 @@ this.props.cardMenuTitle // Autoexplicativo
         <h3 className="card-header">{this.props.cardMenuTitle}</h3>
                     <div className="card-body">
                         <ul>
-                            <li><Link className="hover-anclas" to={"/general"}>hola</Link></li>
-                            <li><Link className="hover-anclas" href="/">bba</Link></li>
-                            <li><Link className="hover-anclas" href="/">como</Link></li>
-                            <li><Link className="hover-anclas" href="/">tu</Link></li>
+                            <li><Link className="hover-anclas" to={this.props.LinkUno}>hola</Link></li>
+                            <li><Link className="hover-anclas" to={this.props.LinkDos}>bba</Link></li>
+                            <li><Link className="hover-anclas" to={this.props.LinkTres}>como</Link></li>
+                            <li><Link className="hover-anclas" to={this.props.LinkCuatro}>tu</Link></li>
 
                         </ul>
                     </div>
