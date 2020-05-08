@@ -29,10 +29,15 @@ class Home extends React.Component {
                     <section className="mt-5  customDivRow">
                         <CardMenu
                             cardMenuTitle="hola"
+                        // -----------------------
                             LinkUno="/general"
+                            textLinkUno="LinkUNO"
                             LinkDos="/general"
+                            textLinkDos=""
                             LinkTres="/general"
+                            textLinkTres=""
                             LinkCuatro="/general"
+                            textLinkCuatro=""
                         />
                     </section>
 
