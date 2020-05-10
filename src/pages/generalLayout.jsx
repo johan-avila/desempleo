@@ -11,17 +11,24 @@ class General extends React.Component {
     render() {
         return (
             <React.Fragment>
-                
-                    <head>
-                        <title>hola bba como tu te llama</title>
-                    </head>
-                
                 <Navbar />
                 <main className="GlobalGeneral">
-                    <ColumnIzq h1="hola mundo" />
+
+                    <ColumnIzq
+                        h1={this.props.h1ColumnaIzq}
+                        seoTexto={this.props.seoTexto}
+                        altImg={this.props.altImg}
+                        linkImg={this.props.linkImg}
+                        contenido={this.props.contenido}
+                        />
+                        
+
+
+
                     <div className="columnaDer">
                         <Form />
                     </div>
+
                 </main>
                 <Footer />
             </React.Fragment>

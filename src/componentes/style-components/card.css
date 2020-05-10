@@ -1,24 +1,32 @@
-.customStateReset:hover{
+.customStateReset:hover {
   text-decoration: none;
+  /* width: 25%; */
   /* color: none; */
 }
 
-.customCardBody{
+.customStateReset {
+  text-decoration: none;
+  width: 25%;
+  /* height: 5em; */
+  /* color: none; */
+}
+.customCardBody {
   background-color: var(--color-uno);
   color: var(--color-font);
-
+  /* height:auto; */
 }
-.customGlobalCard{
-  padding: .5em;
+.customGlobalCard {
+  padding: 0.5em;
+  /* max-width: 25%; */
 }
-h2{
+h2 {
   font-size: 1.5rem;
   margin: 0;
   padding: 0;
 }
-.customBodyCard{
-  height: 2em;
-display: flex;
-justify-content: center;
-align-items: center;
+.customBodyCard {
+  height:  auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

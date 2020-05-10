@@ -21,7 +21,7 @@ this.props.Title  //titulo del card
         return (
             <React.Fragment  >
                 <Link className="customStateReset" to={this.props.linkTo}>
-                    <div className="col-3mb-4 customGlobalCard">
+                    <div className=" customGlobalCard">
                         <div className="card h-100 customCardBody ">
                             <img src={this.props.img} className="card-img-top " alt={this.props.altImg} />
                             <div className="card-body text-center customBodyCard ">
