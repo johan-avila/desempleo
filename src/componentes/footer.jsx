@@ -1,13 +1,15 @@
 import React from "react"
 import "./style-components/footer.css"
+import {Link} from "react-router-dom";
+  
+  
 
 class Footer extends React.Component {
     render() {
         return (
             <footer class="mt-5">
-                <a href="/">Politica de privacidad</a>
-                <a href="/">Aviso Legal</a>
-                {/* <a href="">Politica de privacidad</a> */}
+                <Link to="/">Politica de privacidad</Link>
+                <Link to="/">Aviso Legal</Link>
             </footer>
         )
     }

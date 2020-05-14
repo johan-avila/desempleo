@@ -2,6 +2,7 @@ import React from "react"
 //Componentes
 import Navbar from "../componentes/navbar"
 import Footer from "../componentes/footer"
+
 //meta componente
 import MetaEtiquetas from "../componentes/MataTags"
 
@@ -14,7 +15,10 @@ class Home extends React.Component {
             <React.Fragment>
                 <MetaEtiquetas />
                 < Navbar />
-               
+                <section className="sectionHome my-5">
+
+
+                </section>
                 <Footer />
 
             </React.Fragment>
