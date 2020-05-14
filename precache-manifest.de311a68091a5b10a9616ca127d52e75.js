@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "115754378c542633d38813607cf86190",
+    "revision": "8a1ebd72b13f3bda833285e592f9669e",
     "url": "/desempleo/index.html"
   },
   {
-    "revision": "d5c9e3b8136779e2130d",
+    "revision": "7ad864b46224b06297a1",
     "url": "/desempleo/static/css/2.74189dbb.chunk.css"
   },
   {
-    "revision": "8f8b99427891c96e1024",
+    "revision": "95751f03b812a78cda0c",
     "url": "/desempleo/static/css/main.30b0a075.chunk.css"
   },
   {
-    "revision": "d5c9e3b8136779e2130d",
-    "url": "/desempleo/static/js/2.8d73e31e.chunk.js"
+    "revision": "7ad864b46224b06297a1",
+    "url": "/desempleo/static/js/2.44a39883.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/desempleo/static/js/2.8d73e31e.chunk.js.LICENSE.txt"
+    "url": "/desempleo/static/js/2.44a39883.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8f8b99427891c96e1024",
-    "url": "/desempleo/static/js/main.2494fc04.chunk.js"
+    "revision": "95751f03b812a78cda0c",
+    "url": "/desempleo/static/js/main.93552571.chunk.js"
   },
   {
     "revision": "d930420b501c8532b9ea",
