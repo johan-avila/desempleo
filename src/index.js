@@ -10,4 +10,4 @@ import App from "./componentes/App"
 
 const DOMcontainer= document.getElementById("app")
 
-ReactDOM.render(<App/>, DOMcontainer)
+ReactDOM.render(<App/>, DOMcontainer)   

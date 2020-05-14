@@ -19,10 +19,10 @@ class CardMenu extends React.Component {
                     <h3 className="card-header">{this.props.cardMenuTitle}</h3>
                     <div className="card-body">
                         <ul>
-                            <li><Link className="hover-anclas" to={this.props.LinkUno}>{this.props.textLinkUno}</Link></li>
-                            <li><Link className="hover-anclas" to={this.props.LinkDos}>{this.props.textLinkDos}</Link></li>
-                            <li><Link className="hover-anclas" to={this.props.LinkTres}>{this.props.textLinkTres}</Link></li>
-                            <li><Link className="hover-anclas" to={this.props.LinkCuatro}>{this.props.textLinkCuatro}</Link></li>
+                            <li><a className="hover-anclas" href={this.props.LinkUno}>{this.props.textLinkUno}</a></li>
+                            <li><a className="hover-anclas" href={this.props.LinkDos}>{this.props.textLinkDos}</a></li>
+                            <li><a className="hover-anclas" href={this.props.LinkTres}>{this.props.textLinkTres}</a></li>
+                            <li><a className="hover-anclas" href={this.props.LinkCuatro}>{this.props.textLinkCuatro}</a></li>
 
                         </ul>
                     </div>

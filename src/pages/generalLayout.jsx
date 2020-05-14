@@ -8,9 +8,14 @@ import ColumnIzq from "../componentes/columnaIzq"
 import "./pagescss/generalLayout.css"
 
 class General extends React.Component {
+    reload = () => {
+        window.location.reload(true);
+    }
+    
     render() {
         return (
             <React.Fragment>
+    {/* {this.reload()} */}
                 <Navbar />
                 <main className="GlobalGeneral">
 
