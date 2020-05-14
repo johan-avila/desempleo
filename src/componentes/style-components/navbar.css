@@ -34,6 +34,7 @@ nav div a:hover {
 }
 .navContainerLinkDerecho {
   justify-content: start;
+padding: 0em 0em 0em 1em;
 }
 
 .customLinkIzq {
@@ -43,4 +44,24 @@ nav div a:hover {
   height: 90%;
   border-radius: 10px;
   text-align: center;
+}
+@media (min-width: 0px) and (max-width: 800px) {
+  /* ----------------------nav------------------------ */
+  nav {
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+  }
+  nav div {
+    width: 50%;
+    height: 100%;
+  }
+  nav div a {
+    font-size: 1.2rem;
+    color: white;
+  }
+  .navContainerLinkDerecho {
+    padding: 0 0 0 1em;
+  }
 }

@@ -6,10 +6,10 @@ class Navbar extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <nav class="fixed-op fixed-top">
-                    <div class="navContainerLinkDerecho"><a class="customLInkDer" href="">Web Name</a></div>
+                <nav className=" fixed-top">
+                    <div className="navContainerLinkDerecho"><a class="customLInkDer" href="/">Web Name</a></div>
                     <div>
-                        {/*  <a class="customLinkIzq" href="">Nuevos Cursos y Apoyos</a> */}
+                        {/* <!-- <a class="customLinkIzq" href="">Nuevos Cursos y Apoyos</a> */}
                     </div>
                 </nav>
             </React.Fragment>)

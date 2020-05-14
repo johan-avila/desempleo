@@ -4,15 +4,10 @@ import "./style-components/footer.css"
 class Footer extends React.Component {
     render() {
         return (
-            <footer>
-
-                <div className="divLegales">
-                    <a href="/">Política de Cookies</a>
-                    <a href="/">Política de Privacidad</a>
-                    <a href="/">Aviso legal</a>
-                </div>
-
-
+            <footer class="mt-5">
+                <a href="/">Politica de privacidad</a>
+                <a href="/">Aviso Legal</a>
+                {/* <a href="">Politica de privacidad</a> */}
             </footer>
         )
     }
