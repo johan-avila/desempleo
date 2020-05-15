@@ -8,6 +8,7 @@ import CreditosRapidos from "../pages/creditos-rapidos"
 /////////////////////////////
 /////basename="/calendar"////
 /////////////////////////////
+
 function App() {
     return (
         <HashRouter  >
@@ -15,6 +16,7 @@ function App() {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/generalLayout" component={General} />
                 <Route exact path="/apoyos" component={Apoyos} />
+                <Route exact path="/creditos-rapidos" component={CreditosRapidos} />
                 <Route exact path="/creditos-rapidos" component={CreditosRapidos} />
 
             </Switch>

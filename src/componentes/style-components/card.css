@@ -1,12 +1,14 @@
 .customStateReset:hover {
   text-decoration: none;
-  /* width: 25%; */
   /* color: none; */
+  /* width: 22.2%; */
+  /* background-color: green ; */
+  /* box-shadow: 5px 10px 0px; */
 }
 
 .customStateReset {
   text-decoration: none;
-  width: 25%;
+  width: 23%;
   /* height: 5em; */
   /* color: none; */
 }
@@ -20,13 +22,27 @@
   /* max-width: 25%; */
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   margin: 0;
   padding: 0;
+  text-align: center !important ;
 }
 .customBodyCard {
-  height:  auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: auto;
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+  .customImagenCard {
+    width: 100% !important;
+    height: 11em;
+    /* object-fit: cover !important; */
+    object-fit: cover !important;
+    /* position: relative; */
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .customStateReset{
+    width: 100%;
+  }
 }

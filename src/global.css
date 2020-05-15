@@ -4,7 +4,7 @@
   --color-uno: #2d93d5;
   --color-dos: #004f98;
   --color-tres: #ced9fe;
-  --color-cuatro: #8e8e8e;
+  --color-cuatro: #eeeeee!important;
   --color-cinco: #2982bd ;
   --color-font: white;
   --color-siete: ;
@@ -15,4 +15,7 @@ padding: 0;
 
 }
 
+body{
+  background-color: var(--color-cuatro)!important;
+}
 

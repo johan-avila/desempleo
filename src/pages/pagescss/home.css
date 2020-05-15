@@ -9,6 +9,22 @@
   text-align: justify;
 }
 .sectionHome {
-  margin: 10em 0em;
-  height: 100vh;
+  /* margin: 10em 0em 0em; */
+  /* border: green solid 2px; */
+  display: flex;
+  justify-content: space-around ;
+  padding: 5em 5em 0 5em;
+}
+.SecondSectionHome {
+
+  padding: 1em 5em;
+}
+@media (min-width: 0px) and (max-width: 800px) {
+  .sectionHome {
+    padding: 1em 0.2em;
+    flex-direction: column;
+  }
+  .SecondSectionHome {
+    padding: 1em 1em;
+  }
 }

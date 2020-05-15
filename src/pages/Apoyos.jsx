@@ -46,7 +46,7 @@ class Apoyos extends React.Component {
                             <h4>Lo mejor de todo es que eL tramite es Gratis y los puedes hacer Desde Casa  </h4>
                             <a href="https://tramites.cdmx.gob.mx/desempleo/" rel="noopener noreferrer nofollow" target="_blank">Registrate aqui
                              </a>
-                           
+
 
                             <h2>Retiro de Ahorro Voluntario 	</h2>
 
@@ -87,7 +87,7 @@ class Apoyos extends React.Component {
                             <a href={`https://www.consar.gob.mx/gobmx/aplicativo/catsar/Principal/TramiteExt.aspx?idTramite=11&PAG_ACTUAL=/gobmx/aplicativo/catsar/Principal/InicioExt.aspx`}
                                 rel="noopener noreferrer nofollow" target="_blank">Mas informacion aqui
                              </a>
-                           
+
 
 
 
